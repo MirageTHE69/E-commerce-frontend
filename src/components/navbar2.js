@@ -2,7 +2,7 @@ import React from "react"
 import Icon from "../images/insta.svg"
 import Icon2 from "../images/faebook.svg"
 import Icon3 from "../images/twitter.svg"
-import Logo from "../images/logo.svg"
+import Logo from "../images/Logo.svg"
 
 const Navbar = () => {
   return (
