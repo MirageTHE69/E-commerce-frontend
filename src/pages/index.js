@@ -11,6 +11,9 @@ import Navbar2 from "../components/navbar2";
 import Hero from "../components/hero";
 import Item from "../components/item";
 import InfoSection from "../components/infoSection";
+import ProductSection from "../components/productsSection";
+import Catsection from "../components/catSection";
+
 
 const IndexPage = () => {
   // Controls for animations
@@ -63,7 +66,12 @@ const IndexPage = () => {
       <motion.div initial={{ opacity: 0, y: 30 }} animate={itemControls} className=" bg-black">
         <Item />
       </motion.div>
+      <ProductSection/>
       <InfoSection />
+      <ProductSection/>
+      <Catsection/>
+
+      
     </div>
   );
 };
