@@ -13,6 +13,9 @@ import Item from "../components/item";
 import InfoSection from "../components/infoSection";
 import ProductSection from "../components/productsSection";
 import Catsection from "../components/catSection";
+import InfoSection2 from "../components/infoSection2";
+import Gendersection from "../components/genderSection";
+import Foot from "../components/foot";
 
 
 const IndexPage = () => {
@@ -70,6 +73,9 @@ const IndexPage = () => {
       <InfoSection />
       <ProductSection/>
       <Catsection/>
+      <InfoSection2/>
+      <Gendersection/>
+      <Foot/>
 
       
     </div>
