@@ -6,7 +6,7 @@ import Kid from "../images/kid.svg"
 
 function Gendersection() {
   return (
-    <div className="min-w-screen p-10 bg-[#1E1E1E]">
+    <div className="min-w-screen p-10 bg-black">
       <div className="w-full h-auto flex flex-col items-center">
         <span className="text-3xl text-yellow-400 mt-10">Shop by Gender</span>
         <span className="text-white capitalize text-lg mt-5">

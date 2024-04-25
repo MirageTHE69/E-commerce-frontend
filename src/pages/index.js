@@ -75,7 +75,7 @@ const IndexPage = () => {
       <Catsection/>
       <InfoSection2/>
       <Gendersection/>
-      <Foot/>
+      {/* <Foot/> */}
 
       
     </div>
